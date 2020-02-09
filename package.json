@@ -1,0 +1,13 @@
+{
+    "name": "crud-demo",
+    "productName": "Electron js. Crud File",
+    "version": "1.0.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^7.1.10",
+        "electron-packager": "^14.2.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}

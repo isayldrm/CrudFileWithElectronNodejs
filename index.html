@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <title>Crud App</title>
+</head>
+<body>
+    <div class="mainWrapper">
+        <h1>Crud File</h1>
+
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input id="fileName" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                 <label>Contents</label>
+                 <textarea id="fileContents" class="form-control" rows="5"></textarea>
+            </div>
+        </form>
+        <button id="btnCreate"   class="btn btn-success">Create</button>
+        <button id="btnRead" class="btn btn-warning">Read</button> 
+        <button id="btnDelete" class="btn btn-danger">Delete</button>
+    </div>
+    
+     <script src="./index.js"></script>
+    <!-- <script type="module">
+        import './index.js';
+    </script> -->
+</body>
+</html>
